@@ -126,3 +126,14 @@ body.modo-escuro .link-esqueci {
 body.fonte-grande {
     font-size: 18px;
 }
+
+body.fonte-grande h2{
+    font-size: 28px;
+}
+
+body.fonte-grande p,
+body.fonte-grande label
+body.fonte-grande .btn-menu,
+body.fonte-grande button{
+    font-size: 18px;
+}
