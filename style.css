@@ -1,6 +1,6 @@
 body {
     font-family: Arial, sans-serif;
-    background-color: #eef0f0;
+    background-color: #cbccccc2;
 
     display: flex;
     justify-content: center;
@@ -33,7 +33,7 @@ input{
     width: 100%;
     padding: 8px;
     box-sizing: border-box;
-    border: 1px solid #ccc;
+    border: 1px solid #110074;
     border-radius: 4px;
 }
 
@@ -42,7 +42,7 @@ input{
     text-align: right;
     margin-top: 10px 0;
     font-size: 12px;
-    color: #007bff;
+    color: #d82121;
     text-decoration: none;
 }
 
@@ -62,7 +62,7 @@ button {
 }
 
 button:hover {
-    background-color: #0056b3;
+    background-color: #0757ecea;
 }
 
 .btn-menu {
@@ -84,7 +84,7 @@ button:hover {
 .foto-perfil {
     width: 100px;
     height: 100px;
-    border-radius: 50%;
+    border-radius: 50;
     object-fit: cover;
 }
 
@@ -94,11 +94,35 @@ button:hover {
     color: #333;
 }
 
-info-usuario {
+.info-usuario a{
     color: #333;
     text-decoration: none;
 }
 
 .info-usuario a:hover {
     text-decoration: underline;
+}
+
+body.modo-escuro {
+    background-color: #1e1e1e;
+    color: #ffffff;
+}
+
+body.modo-escuro .caixa-login {
+    background-color: #2c2c2c;
+    box-shadow: 0 0px 10px rgba(255, 255, 255, 0.2);
+}
+
+body.modo-escuro h2,
+body.modo-escuro p,
+body.modo-escuro label{
+    color: #ffffff;
+}
+
+body.modo-escuro .link-esqueci {
+    color: #ff4d4d;
+}
+
+body.fonte-grande {
+    font-size: 18px;
 }
