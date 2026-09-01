@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width">
+        <title> Menu Principal </title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body> 
+
+        <div class="caixa-login">
+            <h2> Configurações </h2>
+            <p style="text-align: center; margin-bottom: 20px;"> Aqui você pode ajustar suas preferências. </p>
+
+            <button type="button" class="btn-menu" onclick="alterarModoEscuro()"> Modo Escuro (DARK)</button>
+            <button type="button" class="btn-menu" onclick="alterarFonteGrande()"> Letras Maiores (LIGHT)</button>
+
+            <a href="menu.html" class="link-esqueci" style="text-align: center; margin-top: 20px;"> Voltar ao Menu </a>
+        </div>
+
+        <script>
+            function alterarModoEscuro() {
+                document.body.classList.toggle ("modo-escuro");
+            }
+
+            function alterarFonteGrande() {
+                document.body.classList.toggle ("fonte-grande");
+            }
+        </script>
+    </body>
+</html>
